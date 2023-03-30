@@ -143,12 +143,11 @@ array that is almost entirely sorted.
             while(key<arr[j-step]&&j>=step)
             {
 
-
-                arr[j]=arr[j-step];
-                j-=step;
-
+                 key=arr[j];
+                arr[j]=arr[j+step];
+                arr[j+step]=key;
+                //swip 
             }
-            arr[j]=key;
         }
     }
     cout<<"Shell sort\n";
