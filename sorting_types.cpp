@@ -83,6 +83,7 @@ void selection_sort(int arr[],int n)
     * comparisons n(n-1)/2
  */
 }
+//insertion has fewer comparisons than selection
 
 void bubble_sort(int arr[],int n)
 {
