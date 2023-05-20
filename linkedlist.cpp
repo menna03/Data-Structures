@@ -67,7 +67,7 @@ public:
      {
          tail->setNext(item,NewNODE);
          tail=NewNODE;
-         //or if we don't wnt te use tail
+         //or if we don't want to use tail
          IntNode *curr=head;
          while(curr->next!= nullptr)
          {
