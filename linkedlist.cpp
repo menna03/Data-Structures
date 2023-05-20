@@ -48,8 +48,7 @@ public:
     {
         IntNode *newNODE=new IntNode ;
         newNODE->info=item;
-        newNODE->next=head;
-        //newNODE->setNext(item);
+        newNODE->setNext(item);
         head =newNODE ;
         if(tail ==nullptr)
         {
